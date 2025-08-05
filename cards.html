@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cards.css">
+    <script src="cards.js"></script>
+    <title>Meet the Scouts!</title> 
+  </head>
+  <body>
+    
+    <h1 class="aot-ancestors-heading">Meet Your Glorious Ancestors 😤</h1>
+
+
+    <div class="container">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/eren.jpg" alt="Eren Yeager" />
+          </div>
+          <div class="card-back">
+            <h2>Eren Yeager</h2>
+            <p>
+              “Started with sad boy vibes, ended with world-ending decisions.”
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Mikasa Ackerman -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/mikasa.jpg" alt="Mikasa" />
+          </div>
+          <div class="card-back">
+            <h2>Mikasa Ackerman</h2>
+            <p>"Protect Eren? Been doing it since day one. Try me."</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hange Zoë -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/hange.jpg" alt="Hange Zoe" />
+          </div>
+          <div class="card-back">
+            <h2>Hange Zoe</h2>
+            <p>
+              "Titans are not monsters... they're just *really* big friends...
+              maybe."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Erwin Smith -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/erwin.jpg" alt="Erwin Smith" />
+          </div>
+          <div class="card-back">
+            <h2>Erwin Smith</h2>
+            <p>"Have a plan. It might get you killed. But hey, it's a plan!"</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Levi Ackerman -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/levi.jpg" alt="Levi Ackerman" />
+    </div>
+    <div class="card-back">
+      <h2>Levi Ackerman</h2>
+      <p>Human blender. Cleans, slays, repeats. Sleeps 20 mins a year.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Jean Kirstein -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/jean.jpg" alt="Jean Kirstein" />
+    </div>
+    <div class="card-back">
+      <h2>Jean Kirstein</h2>
+      <p>Horse jokes aside, he's actually leadership material. Who knew?</p>
+    </div>
+  </div>
+</div>
+
+<!-- Connie Springer -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/connie.jpg" alt="Connie Springer" />
+    </div>
+    <div class="card-back">
+      <h2>Connie Springer</h2>
+      <p>Resident goofball. Once mistook a Titan mom for a neighbor.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Ymir -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/ymir.jpg" alt="Ymir" />
+    </div>
+    <div class="card-back">
+      <h2>Ymir</h2>
+      <p>Sarcastic Titan with commitment issues. Loves one (1) Historia.</p>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Annie Leonhart -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/annie.jpg" alt="Annie Leonhart" />
+          </div>
+          <div class="card-back">
+            <h2>Annie Leonhart</h2>
+            <p>
+              "Don't Stalk to me unless you want a roundhouse kick. Seriously."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/floch.jpg" alt="Floch Forster" />
+    </div>
+    <div class="card-back">
+      <h2>Floch Forster</h2>
+      <p>Went from background extra to most punchable Yeagerist.</p>
+    </div>
+  </div>
+</div>
+      
+
+      <section id="join-scouts">
+  <h2>🛡️ Join the Scouts – Your Ancestors Are Waiting! 😤</h2>
+  <form id="scoutForm">
+    <label for="name">📝 Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="photo">📸 Upload Your Heroic Photo:</label><br>
+    <input type="file" id="image" name="photo" accept="image/*" required><br><br>
+
+    <label for="intro">💬 Your Fun Intro Line:</label><br>
+    <textarea id="intro" name="intro" rows="3" placeholder="E.g., I can outrun Titans in Crocs..." required></textarea><br><br>
+
+    <button type="submit">🚀 Enlist Now!</button>
+  </form>
+</section>
+
+
+
+<h2>Your Entry Will Appear Here -></h2>
+<div id="user-cards" class="card-container "></div>
+
+
+
+ <!-- Reiner Braun -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/reiner.jpg" alt="Reiner" />
+          </div>
+          <div class="card-back">
+            <h2>Reiner Braun</h3>
+            <p>Armored Titan, part-time soldier, full-time confused.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bertholdt Hoover -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/bertholdt.jpg" alt="Bertholdt" />
+          </div>
+          <div class="card-back">
+            <h2>Bertholdt Hoover</h3>
+            <p>Titan so big, his anxiety has its own gravity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/magath.jpg" alt="Theo Magath" />
+    </div>
+    <div class="card-back">
+      <h2>Theo Magath</h2>
+      <p>Commander with a conscience. Surprisingly cool uncle vibes.</p>
+    </div>
+  </div>
+</div>
+      <!-- Pieck Finger -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/pieck.jpg" alt="Pieck" />
+          </div>
+          <div class="card-back">
+            <h2>Pieck Finger</h3>
+            <p>Cart Titan and queen of "I'm tired but dangerous."</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zeke Yeager -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/zeke.jpg" alt="Zeke" />
+          </div>
+          <div class="card-back">
+            <h2>Zeke Yeager</h3>
+            <p>Beast Titan. Yeets rocks. Daddy issues: 100%</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Falco Grice -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/falco.jpg" alt="Falco" />
+          </div>
+          <div class="card-back">
+            <h2>Falco Grice</h3>
+            <p>Good boy turned Jaw Titan. Worries like a champ.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gabi Braun -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/gabi.jpg" alt="Gabi" />
+          </div>
+          <div class="card-back">
+            <h2>Gabi Braun</h3>
+            <p>Small package, big chaos. Pew pew!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Historia Reiss -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/historia.jpg" alt="Historia" />
+          </div>
+          <div class="card-back">
+            <h2>Historia Reiss</h3>
+            <p>Queen. Previously cinnamon roll. Now... Mom?</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kenny Ackerman -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/kenny.jpg" alt="Kenny" />
+          </div>
+          <div class="card-back">
+            <h2>Kenny Ackerman</h3>
+            <p>Levi's uncle. Wild west Titan hunter.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Porco Galliard -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/porco.jpg" alt="Porco" />
+          </div>
+          <div class="card-back">
+            <h2>Porco Galliard</h3>
+            <p>Jaw Titan. Mad at everyone... always.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Onyankopon -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/onyankopon.jpg" alt="Onyankopon" />
+          </div>
+          <div class="card-back">
+            <h2>Onyankopon</h3>
+            <p>Coolest dude. Brings tech, peace, and vibes.</p>
+          </div>
+        </div>
+      </div>
+  <div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/rod.jpg" alt="Rod Reiss" />
+    </div>
+    <div class="card-back">
+      <h2>Rod Reiss</h2>
+      <p>Turned into a literal crawling Titan slug. Worst dad award.</p>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/marco.jpg" alt="Marco Bott" />
+    </div>
+    <div class="card-back">
+      <h2>Marco Bott</h2>
+      <p>Sweetest cinnamon roll. Deserved better. Got sliced instead.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Keith Shadis -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/keith.jpg" alt="Keith Shadis" />
+    </div>
+    <div class="card-back">
+      <h2>Keith Shadis</h2>
+      <p>Bald drill sergeant. Secretly wise, secretly sad, yells a lot.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Nile Dok -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/nile.jpg" alt="Nile Dok" />
+    </div>
+    <div class="card-back">
+      <h2>Nile Dok</h2>
+      <p>MP guy who aged like milk, then wine. Deserved a break.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Grisha Yeager -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/grisha.jpg" alt="Grisha Yeager" />
+    </div>
+    <div class="card-back">
+      <h2>Grisha Yeager</h2>
+      <p>Father of chaos. Passed on trauma (and a Titan). Thanks dad!</p>
+    </div>
+  </div>
+</div>
+
+<!-- Carla Yeager -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/carla.jpg" alt="Carla Yeager" />
+    </div>
+    <div class="card-back">
+      <h2>Carla Yeager</h2>
+      <p>Best mom. Got eaten by a smiling Titan. Still iconic.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Lara Tybur -->
+<div class="card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="images/lara.jpg" alt="Lara Tybur" />
+    </div>
+    <div class="card-back">
+      <h2>Lara Tybur</h2>
+      <p>Elegant War Hammer Titan. Fought in heels. Still lost.</p>
+    </div>
+  </div>
+</div>
+      <!-- Duplicate the above card structure for each character, replacing image src, name, and intro -->
+    </div>
+
+
+    
+  </body>
+</html>
